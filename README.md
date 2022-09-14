@@ -38,6 +38,14 @@ annonces page:
 
 Les flex layout ont été utilisés pour la liste des annonces responsive (avec les medias queries) et pour placer correctement certain élément comme les boutons de navigation et le prix/date de publication des annonces.
 
+## Screenshot
+
+Login page:<br>
+![login page](./images/login_sreenshot.PNG)
+
+Annonces page:<br>
+![annonces page](./images/annonces_screenshot.PNG)
+
 PS: J'ai volontairement ajouté mon propre theme, j'espere que je ne suis pas de mauvais gout ;) 
 
 
