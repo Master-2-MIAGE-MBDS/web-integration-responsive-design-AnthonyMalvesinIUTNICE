@@ -1,0 +1,80 @@
+/* Special CSS code for login.html file */
+
+.main-content {
+    grid-area: main-content;
+    align-content: space-between;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 50% 40% 10%;
+    grid-template-areas:
+        "welcome"
+        "login"
+        "submit";
+}
+
+input {
+    height: 30px;
+    width: calc(100% - 20px);
+    border-radius: 0.25rem;
+    padding: 10px;
+    background-color: #192038;
+    border-color: #101426;
+    color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Space between input button */
+.input-formulaire {
+    margin: 10px;
+}
+
+.submit-btn {
+    background-color: #1481DC;
+    width: calc(100vw - 20px);
+    color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 45px;
+    border-radius: 0.25rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.welcome-wrapper {
+    background-color: #192038;
+    border-radius: 5px;
+    grid-area: welcome;
+}
+
+.login-wrapper {
+    grid-area: login;
+}
+
+.submit-wrapper {
+    grid-area: submit;
+}
+
+.small-info>b {
+    margin-right: 5px;
+}
+
+/* Responsive input markup */
+@media screen and (min-width: 400px) {
+    input {
+        height: 30px;
+        width: 300px;
+    }
+
+    .submit-btn {
+        width: 300px;
+    }
+}
